@@ -1,5 +1,5 @@
 # reproducaoEAnaliseDeExperimentosCientificosEmComputacao
-
+<p><a href='https://youtu.be/pc6mFcCUcoM'>Vídeo do experimento</a><p>
 <p>Este é o código de reprodução do experimento do artigo <a href='https://ieeexplore.ieee.org/document/9356267'>Performance of CatBoost and XGBoost in Medicare Fraud Detection</a></p>
 <p>Utilizamos os algoritmos de ensemble testamos o AUC, tempo de construção das árvoes e tempo de execução do teste para 100, 250 e 500 árvores.</p>
 <p>Aplicamos o teste utilizando os parâmtros para treinamento fornecidos no artigo, depth 6 e learn rate 0.1.</p>
@@ -8,3 +8,18 @@
 <img src='https://media.discordapp.net/attachments/1082383095078076509/1180557552468107424/image.png?ex=657ddae6&is=656b65e6&hm=91efe26798e7348e5842c79cdf57c4b978c14559956e4e67e9f9294344077f59&=&format=webp&quality=lossless&width=1206&height=115' />
 <p>Essas foram as saídas produzidas, optamos por não exibir a média como no experimento original pois não executamos o algoritmo muitas vezes como no artigo.</p>
 <p>O desenvolvimento desta atividae foi uma grane experiência de aprendizado pois está é a primeira vez que aplicamos a teoria em código utilizando a biblioteca sklearn, xgboost e catboost, também nos permitiu experiênciar como o python é poderoso para tratamento de dados e como existem diferentes formas de preparar os dados para treinamemto sendo algumas melhores e outras piores.</p>
+
+<p>Para executar o programar instale as seguintes depêndencias</p>
+
+```python
+  pip install pandas
+```
+```python
+  pip install xgboost 
+```
+```python
+  pip install -U scikit-learn
+```
+```python
+  pip install catboost
+```
