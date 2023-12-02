@@ -1,5 +1,5 @@
 # reproducaoEAnaliseDeExperimentosCientificosEmComputacao
-<p><a href='https://youtu.be/pc6mFcCUcoM'>Vídeo do experimento</a><p>
+<p><a href= 'https://www.youtube.com/watch?v=PSmjft-zQRE'>Vídeo do experimento</a><p>
 <p>Este é o código de reprodução do experimento do artigo <a href='https://ieeexplore.ieee.org/document/9356267'>Performance of CatBoost and XGBoost in Medicare Fraud Detection</a></p>
 <p>Utilizamos os algoritmos de ensemble testamos o AUC, tempo de construção das árvoes e tempo de execução do teste para 100, 250 e 500 árvores.</p>
 <p>Aplicamos o teste utilizando os parâmtros para treinamento fornecidos no artigo, depth 6 e learn rate 0.1.</p>
